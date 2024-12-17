@@ -22,3 +22,18 @@ https://www.analog.com/en/resources/analog-dialogue/articles/introduction-to-spi
 
 #7 -- teoria Quad SPI
 https://www.amd.com/content/dam/xilinx/support/documents/ip_documentation/axi_quad_spi/v3_2/pg153-axi-quad-spi.pdf
+
+#8 -- controlador de SPI em VHDL ; site parece ter bastante conteudo sobre VHDL e FPGA
+https://surf-vhdl.com/how-to-design-spi-controller-in-vhdl/
+
+#9 -- SPI tutorial em FPGA mas usando PetaLinux
+https://www.hackster.io/whitney-knitter/spidev-tutorial-for-zynq-7000-fpga-devices-b5e399
+
+#10 -- usando blocos para implementar algum programa no FPGA Zynq
+https://www.hackster.io/whitney-knitter/fixed-platform-design-on-zynq-7000-in-vivado-2024-1-70bed3
+
+#11 -- repositorio sobre FPGA Zynq-7000
+https://github.com/topics/zynq-7000?l=vhdl
+
+#12 -- repositorio sobre SPI comunication
+https://github.com/topics/spi?l=vhdl
