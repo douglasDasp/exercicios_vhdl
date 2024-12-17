@@ -1,0 +1,24 @@
+
+#1 -- Link sobre como fazer comu. SPI com FPGA em VHDL
+
+https://www.youtube.com/watch?v=m1hFeAqQ-H8
+
+#2 -- Link do canal do intem #1
+
+https://www.youtube.com/@Nandland
+
+#3 -- Link sobre SPI da ZYNq entre outras informacoes interessantes
+
+https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18842437/SPI+Zynq+driver
+
+#4 -- Link sobre SPI da ZYNq com U-boot
+https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/124682257/U-Boot+FPGA+Driver
+
+#5 -- Manual programa e debug da ZynQ
+https://www.xilinx.com/support/documents/sw_manuals/xilinx2022_1/ug908-vivado-programming-debugging.pdf
+
+#6 -- teoria de SPI pelo fabricante ANALOG
+https://www.analog.com/en/resources/analog-dialogue/articles/introduction-to-spi-interface.html
+
+#7 -- teoria Quad SPI
+https://www.amd.com/content/dam/xilinx/support/documents/ip_documentation/axi_quad_spi/v3_2/pg153-axi-quad-spi.pdf
