@@ -4,7 +4,12 @@
 
 
 -- testar codigo vhdl na placa direto, depois fazer um testbench
-
+-- clock de 50Mhz real que vem do Oscilador
+-- PG_CLK de 50Mhz = pin U18
+-- PL led1 = pin M14
+-- PL led2 = pin M15
+-- PL led3 = pin K16
+-- PL led4 = pin J16
 
 library ieee; 
 use ieee.std_logic_1164.all;
