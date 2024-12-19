@@ -2,7 +2,7 @@
 -- 19/12/2024
 -- Douglas
 
-
+-- testado e OK no VIVADO 2024.2 p/ FPGA Xilinx
 -- testar codigo vhdl na placa direto, depois fazer um testbench
 -- clock de 50Mhz real que vem do Oscilador
 -- PG_CLK de 50Mhz = pin U18
@@ -20,7 +20,7 @@ use ieee.std_logic_unsigned.all;
 entity led_blink is
   port(
     clk_50: in std_logic; -- clock de 50Mhz real que vem do Oscilador
-    led: out std_logic
+    led1, led2, led3, led4: out std_logic
     );
 end led_blink;
 
@@ -51,9 +51,15 @@ begin
         end if;
       end if;
     end process prescaler;
-    -- o led vai variar de acordo com que chegar no clk_1
-    led <= clk_1;
-
+        -- LED ON = '0' nivel logico ZERO
+        -- LED OFF = '1' nivel logico UM
+        -- desliga leds nao operacionais no PL 
+    -- o led1 vai variar de acordo com que chegar no clk_1
+    led1 <= clk_1;
+    led2 <= not clk_1;
+    led3 <= clk_1 xor clk_1;
+    led4 <= '1'; 
+   
 
 
   
