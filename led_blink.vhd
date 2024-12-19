@@ -15,7 +15,7 @@ use ieee.std_logic_unsigned.all;
 entity led_blink is
   port(
     clk_50: in std_logic; -- clock de 50Mhz real que vem do Oscilador
-    led: out std_logic;
+    led: out std_logic
     );
 end led_blink;
 
