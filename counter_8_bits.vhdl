@@ -2,7 +2,13 @@
 --
 -- data: 18/12/2024
 --
---
+---- TESTADO NO CODIGO:
+    -- > SINTESE  = OK
+    -- > IMPLEMENTACAO  = OK
+    -- > SIMULACAO/TESTBENCH  = PENDENTE
+    -- > BITSTREAM (arquivo.bit) = PENDENTE
+    -- > PROGRAMADO NO KIT AX7010 = PENDENTE
+    -- > CARREGADO DO FLASH QSPI = PENDENTE
 
 
 library ieee;
