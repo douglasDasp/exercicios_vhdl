@@ -6,6 +6,14 @@ use IEEE.STD_LOGIC_1164.ALL;
 -- arquivo de teste basico de portas logicas no VIVADO
 -- e kit ALINX AX7010
 
+-- TESTADO O CODIGO:
+    -- > SINTESE  = OK
+    -- > IMPLEMENTACAO  = OK
+    -- > SIMULACAO/TESTBENCH  = OK
+    -- > BITSTREAM (arquivo.bit) = OK
+    -- > PROGRAMADO NO KIT AX7010 = OK
+    -- > CARREGADO DO FLASH QSPI = PENDENTE
+
 -- declara entradas IN e saida OUT
 entity blink_led is
     port (
