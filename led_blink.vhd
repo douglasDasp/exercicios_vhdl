@@ -3,6 +3,17 @@
 -- Douglas
 
 -- testado e OK no VIVADO 2024.2 p/ FPGA Xilinx
+
+-- TESTADO NO CODIGO:
+    -- > SINTESE  = OK
+    -- > IMPLEMENTACAO  = OK
+    -- > SIMULACAO/TESTBENCH  = PENDENTE
+    -- > BITSTREAM (arquivo.bit) = OK
+    -- > PROGRAMADO NO KIT AX7010 = OK
+    -- > CARREGADO DO FLASH QSPI = NOK
+
+
+
 -- testar codigo vhdl na placa direto, depois fazer um testbench
 -- clock de 50Mhz real que vem do Oscilador
 -- PG_CLK de 50Mhz = pin U18
