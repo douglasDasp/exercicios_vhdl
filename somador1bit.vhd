@@ -5,7 +5,13 @@ use ieee.std_logic_1164.all;
 -- testar
 -- data:10/12/2024 -- Douglas
 -- usar o codigo no VIVADO, de forma correta organizada no programa
-
+-- TESTADO NO CODIGO:
+    -- > SINTESE  = OK
+    -- > IMPLEMENTACAO  = OK
+    -- > SIMULACAO/TESTBENCH  = OK
+    -- > BITSTREAM (arquivo.bit) = OK
+    -- > PROGRAMADO NO KIT AX7010 = OK
+    -- > CARREGADO DO FLASH QSPI = PENDENTE
 
 --### TESTBENCH
 
