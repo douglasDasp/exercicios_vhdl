@@ -73,7 +73,8 @@ p_50_HZ : process (i_clock) is
       end if;
     end if;
   end process p_50_HZ;
-
+     
+p_10_HZ : process (i_clock) is
  begin
     if rising_edge(i_clock) then
       if r_CNT_10HZ = c_CNT_10HZ-1 then  -- -1, since counter starts at 0
