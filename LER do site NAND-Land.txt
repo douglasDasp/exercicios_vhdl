@@ -1,0 +1,4 @@
+https://nandland.com/variables-vs-signals/
+
+
+https://nandland.com/register-based-fifo/
