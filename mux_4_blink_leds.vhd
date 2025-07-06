@@ -1,5 +1,5 @@
 -- programa de teste para gerar 4 clocks diferentes freq.
--- para piscar 4 leds
+-- para piscar 1 led em 4 frequencias diferentes selecionadas no MUX
 -- retirado do site  https://nandland.com/your-first-vhdl-program-an-led-blinker/
 -- TESTAR na pratica no devKit ZCU102
 
