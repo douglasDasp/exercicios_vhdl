@@ -49,6 +49,22 @@ begin
   -- All processes toggle a specific signal at a different frequency.
   -- They all run continuously even if the switches are
   -- not selecting their particular output.
+
+  -- explicação dos codigos nos blocos de process
+  -- o clock principal é o i_clock que vem do hardware usado 
+  -- no momento, como o de OSCilador a 50MHZ
+  -- é um clock rápido, então a cada subida de clock "rising_edge(i_clock)
+  -- o "IF 1" acontece, de forma "infinita", enquanto i_clock ativo
+  -- o "IF 2" testa se o valo da constante atual é igual a constante final
+  -- a atual começa em 0 (no exemplo p_100_HZ) 
+  -- e vai até (c_CNT_100HZ - 1) = 125000 - 1 (FIM DA CONTAGEM NESSE CLOCK 100HZ)
+  -- desta forma, a interação fica no "else" de 0 até 12498
+  -- incrementando o r_CNT_100HZ. 0, 1, 2, 3, 4... 12498
+  -- ao chegar no 12499, o IF 2 acontece, o r_TOGGLE_100HZ INVERTE SEU NIVEL LOGICO
+  -- e o contador r_CNT_100HZ volta pra ZERO
+  -- e assim se repete a contagem novamente
+
+  -- i_clock = 50MHZ = 25 000 000 
    
   p_100_HZ : process (i_clock) is
   begin
