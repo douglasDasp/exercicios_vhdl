@@ -37,3 +37,42 @@ https://github.com/topics/zynq-7000?l=vhdl
 
 #12 -- repositorio sobre SPI comunication
 https://github.com/topics/spi?l=vhdl
+
+------------------------ proximos topicos 
+------------------------ Mais indicado para DevKit ZCU102
+------------------------ e FPGA xzcu9eg-ffbv1156-2-e ; Zynq Ultrascale MoSoc + 
+
+#13 --  Xilinx Virtual Cable (XVC) is a TCP/IP-based protocol that acts like a JTAG cable
+and provides a means to access and debug your FPGA or SoC design without using a physical cable.
+https://github.com/Xilinx/XilinxVirtualCable
+
+#14 -- PYNQ is an open-source project from Xilinx that makes it easy to design embedded systems with Zynq
+https://github.com/Xilinx/PYNQ
+
+#15 -- forum AMD sobre linux embarcado, principamente o Petalinux
+https://adaptivesupport.amd.com/s/topic/0TO2E000000YKXXWA4/embedded-linux?language=en_US
+
+#16 -- exemlo de uso do SDK para criar aplicativo com ZynQ
+https://www.fpgadeveloper.com/2014/02/create-an-application-using-the-sdk.html/
+
+#17 -- IMPORTANTE -- exemplo de uso da ZCU102 com SATA SSD
+https://d3pwr7ye9vqskz.cloudfront.net/wp-content/uploads/2023/12/SATA_Host_Controller_IM_ZCU102.pdf
+
+#18 -- como fazer boot via SATA
+https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18841823/Booting+via+Serial+ATA+SATA+on+ZCU102+Evaluation+Platform
+
+#19 -- sobre SATA
+https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18842339/SATA#SATA-HWIPFeatures
+
+#20 -- open source LINUX para Xilinx
+https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/460653138/Xilinx+Open+Source+Linux
+
+#21 -- site com exemplo para explicar variaveis vs sinais
+https://nandland.com/variables-vs-signals/
+
+#22 -- site com exemplo para explicar registradores a base de FIFO
+https://nandland.com/register-based-fifo/
+
+
+
+
